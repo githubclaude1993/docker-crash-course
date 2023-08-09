@@ -9,15 +9,38 @@ app.get('/', (req, res) => {
   res.json([
     {
       "id":"1",
-      "title":"Book Review: The Name of the Wind"
+      "firstname":"John",
+      "lastname":"Doe",
+      "birthday":"01/28/1985",
+      "gender":"male"
     },
     {
       "id":"2",
-      "title":"Game Review: Pokemon Brillian Diamond"
+      "firstname":"Arthur",
+      "lastname":"Donce",
+      "birthday":"10/11/1978",
+      "gender":"male"
     },
     {
       "id":"3",
-      "title":"Show Review: Alice in Borderland"
+      "firstname":"Christopher",
+      "lastname":"Maren",
+      "birthday":"02/19/1990",
+      "gender":"male"
+    },
+    {
+      "id":"4",
+      "firstname":"Elizabeth",
+      "lastname":"Roe",
+      "birthday":"08/01/1991",
+      "gender":"female"
+    },
+    {
+      "id":"5",
+      "firstname":"Jennifer",
+      "lastname":"Rhodes",
+      "birthday":"12/15/1986",
+      "gender":"female"
     }
   ])
 })
